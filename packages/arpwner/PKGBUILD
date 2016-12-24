@@ -7,11 +7,11 @@ pkgrel=1
 arch=('any')
 groups=('blackarch' 'blackarch-networking')
 pkgdesc='GUI-based python tool for arp posioning and dns poisoning attacks.'
-url='https://github.com/ntrippar/ARPwner'
+url='https://github.com/sighbr/ARPwner'
 license=('GPL3')
 depends=('python2' 'python2-pypcap' 'pygtk')
 makedepends=('git')
-source=('git+https://github.com/ntrippar/ARPwner.git')
+source=('git+https://github.com/sighbr/ARPwner.git')
 sha1sums=('SKIP')
 
 pkgver() {
